@@ -1,0 +1,23 @@
+body {
+  margin: 0; }
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background: lightgrey;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#button {
+  outline: none;
+  font-family: monospace;
+  font-weight: bold;
+  height: 100px;
+  width: 100px;
+  background: whitesmoke;
+  text-align: center; }
+
+/*# sourceMappingURL=master.css.map */
