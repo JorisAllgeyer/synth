@@ -1,25 +1,43 @@
+$green : #008081;
+$blue : #0000AA;
+$grey : #C0C0C0;
+
 body{
   margin: 0;
+  background: $green;
 }
+h1{text-align: center;}
 
-.container{
-  height: 100vh;
+.settings{
+  height: 25vh;
   width: 100vw;
-  background: lightgrey;
-
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  .button{
+    height: 75px;
+  }
 }
 
-#button{
+.container-clav{
+  height: 50vh;
+  width: 100vw;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+  border-width: 4px;
   outline: none;
   font-family: monospace;
   font-weight: bold;
-  height: 100px;
-  width: 100px;
-  background: whitesmoke;
+  height: 200px;
+  width: 75px;
+  background: $grey;
   text-align: center;
 }
