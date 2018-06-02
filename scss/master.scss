@@ -5,8 +5,9 @@ $grey : #C0C0C0;
 body{
   margin: 0;
   background: $green;
-  font-family: monospace;  
+  font-family: monospace;
 }
+
 h1{text-align: center;}
 
 .settings{
@@ -16,7 +17,8 @@ h1{text-align: center;}
   display: -ms-flex;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  margin-bottom: 10px;
 
   .button{
     height: 75px;
@@ -24,7 +26,8 @@ h1{text-align: center;}
 }
 
 .container-clav{
-  height: 50vh;
+  position: relative;
+  bottom: 150px;
   width: 100vw;
   display: -webkit-flex;
   display: -ms-flex;
@@ -32,13 +35,34 @@ h1{text-align: center;}
   justify-content: center;
 }
 
-.button{
+.container-clav-sharp{
+  position: relative;
+  z-index: 10;
+  width: 100vw;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+
+  .button{
+    color: white;
+    background: #111;
+    border-color: #222;
+    height: 150px;
+    width: 60px;
+    margin: 0px 10px;
+  }
+  .gap{
+    background-color: transparent;
+  }
+}
+.button, .gap{
   border-width: 4px;
   outline: none;
   font-family: monospace;
   font-weight: bold;
-  height: 200px;
-  width: 75px;
+  height: 250px;
+  width: 80px;
   background: $grey;
   text-align: center;
 }
