@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  background: #008081; }
+  background: #008081;
+  font-family: monospace; }
 
 h1 {
   text-align: center; }
