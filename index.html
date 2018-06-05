@@ -4,24 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <title>synth</title>
   <link rel="stylesheet" href="css/master.css">
 </head>
 <body>
   <h1>synth v1</h1>
   <div class="settings">
-    <button class="button" id="sine">sine</button>
+    <input id="slider" type="range" min="0" max="1" step="0.01">
+    <button class="button" id="sine">sin</button>
     <button class="button" id="saw">saw</button>
     <button class="button" id="tri">tri</button>
-    <button class="button" id="square">square</button>
+    <button class="button" id="square">sqr</button>
+    <button class="button" id="down">-1</button>
+    <button class="button" id="normal">0</button>
+    <button class="button" id="up">+1</button>
   </div>
   <div class="container-clav-sharp">
+    <div class="button gap"></div>
     <button class="button" id="button-csharp"></button>
     <button class="button" id="button-dsharp"></button>
     <div class="button gap"></div>
     <button class="button" id="button-fsharp"></button>
     <button class="button" id="button-gsharp"></button>
     <button class="button" id="button-bflat"></button>
+    <div class="button gap"></div>
     <div class="button gap"></div>
   </div>
   <div class="container-clav">
